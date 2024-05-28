@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color:pink;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #fff;
+}
+
+.signup-banner {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 500px;
+    border: 1px solid #ccc;
+}
+
+main {
+    padding: 20px;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filters button,
+.filters select {
+    padding: 10px;
+    font-size: 1em;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    transform: 1s;
+}
+
+.gallery-item {
+    background-color: #fff;
+    border: 0;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 350px;
+    height: 250px;
+    margin-left: 20px;
+}
+
+.gallery-item:hover{
+    transform: scale(1.05);
+    z-index: 2;
+} 
+
+.gallery-item img {
+    width: 150px;
+    height: 200px;
+}
+
+.gallery-item p {
+    margin: 10px 0 0;
+    font-size: 1em;
+    color: #333;
+}
+
+.gallery-item strong {
+    font-size: 1.2em;
+    color: #000;
+}
+
+#imge1:hover{
+    content: url('./image/img1(1).jpg');
+    transform: scale(1.05);
+    z-index: 2;
+    height: 250px;
+}
+#imge2:hover{
+    content: url('./image/img2(1).jpg');
+    transform: scale(1.05);
+    z-index: 2;
+    height: 250px;
+}
+#imge3:hover{
+    content: url('./image/img3(1).jpg');
+    transform: scale(1.05);
+    z-index: 2;
+    height: 250px;
+}
+#imge4:hover{
+    content: url('./image/img4(2).jpg');
+    transform: scale(1.05);
+    z-index: 2;
+    height: 250px;
+}
+#imge5:hover{
+    content: url('./image/img5(1).jpg');
+    transform: scale(1.05);
+    z-index: 2;
+    height: 250px;
+}
+#imge6:hover{
+    content: url("./image/img6(1).jpg");
+    transform: scale(1.05);
+    z-index: 2;
+    height: 250px;
+}
+#imge7:hover{
+    content: url('./image/img7(1).jpg');
+    transform: scale(1.05);
+    z-index: 2;
+    height: 250px;
+}
+#imge8:hover{
+    content: url('./image/img8(2).jpg');
+    transform: scale(1.05);
+    z-index: 2;
+    height: 250px;
+}
+#imge9:hover{
+    content: url('./image/img9(1).jpg');
+    transform: scale(1.05);
+    z-index: 2;
+    height: 250px;
+}
+#imge10:hover{
+    content: url('./image/img10(2).jpg');
+    transform: scale(1.05);
+    z-index: 2;
+    height: 250px;
+}
+#imge11:hover{
+    content: url('./image/img11(2).jpg');
+    transform: scale(1.05);
+    z-index: 2;
+    height: 250px;
+}
+#imge12:hover{
+    content: url('./image/img12(2).jpg');
+    transform: scale(1.05);
+    z-index: 2;
+    height: 250px;
+}
+#imge13:hover{
+    content: url('./image/img13(2).jpg');
+    transform: scale(1.05);
+   z-index: 2;
+   height: 250px;
+}
+#imge14:hover{
+    content: url('./image/img14(2).jpg');
+    transform: scale(1.05);
+    z-index: 2;
+    height: 250px;
+}
+#imge15:hover{
+    content: url('./image/img15(1).jpg');
+    transform: scale(1.05);
+    z-index: 2;
+    height: 250px;
+}
+
